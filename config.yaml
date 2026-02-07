@@ -1,0 +1,42 @@
+llm :
+  model : "gpt-4o"
+  temperature : 0
+
+dataset :
+  path : "C:\\Users\\Sai\\PycharmProjects\\langchain_tuts\\finalized.csv"
+  sep : ';'
+
+metadata:
+  student_id: "Unique identifier for each student."
+  age: "Age of the student (1: <18, 2: 18-21, 3: 22-25, 4: 26-30, 5: >30)."
+  sex: "Gender of the student (1: female, 2: male)."
+  graduated_h_school_type: "Type of high school the student graduated from (1: public, 2: private, 3: other)."
+  scholarship_type: "Type of scholarship the student received (1: none, 2: partial, 3: full)."
+  additional_work: "Indicates if the student has additional work commitments (1: yes, 2: no)."
+  activity: "Indicates if the student participates in extracurricular activities (1: yes, 2: no)."
+  partner: "Indicates if the student has a partner (1: yes, 2: no)."
+  total_salary: "Total salary or income of the student (1: low, 2: medium, 3: high)."
+  transport: "Mode of transportation used by the student (1: public, 2: private, 3: walking, 4: bicycle, 5: other)."
+  accomodation: "Type of accommodation the student resides in (1: dorm, 2: rented, 3: own home, 4: other)."
+  mother_ed: "Mother's education level (1: primary, 2: secondary, 3: higher education, 4: degree, 5: master's, 6: PhD)."
+  farther_ed: "Father's education level (1: primary, 2: secondary, 3: higher education, 4: degree, 5: master's, 6: PhD)."
+  siblings: "Number of siblings the student has (numerical count)."
+  parental_status: "Parental status of the student (1: living with both parents, 2: single parent, 3: other)."
+  mother_occup: "Mother's occupation (1: unemployed, 2: employed, 3: other)."
+  father_occup: "Father's occupation (1: unemployed, 2: employed, 3: other)."
+  weekly_study_hours: "Number of hours the student studies per week (1: <5 hours, 2: 5-10 hours, 3: >10 hours)."
+  reading_non_scientific: "Frequency of reading non-scientific books (1: never, 2: sometimes, 3: often)."
+  reading_scientific: "Frequency of reading scientific books (1: never, 2: sometimes, 3: often)."
+  attendance_seminars_dep: "Attendance at seminars related to the department (1: never, 2: sometimes, 3: often)."
+  impact_of_projects: "Impact of projects on student learning (1: low, 2: medium, 3: high)."
+  attendances_classes: "Frequency of attending classes (1: rarely, 2: sometimes, 3: often)."
+  preparation_midterm_company: "Preparation for midterm with study groups/company (1: yes, 2: no)."
+  preparation_midterm_time: "Time spent preparing for midterm (1: <5 hours, 2: 5-10 hours, 3: >10 hours)."
+  taking_notes: "Frequency of taking notes in class (1: never, 2: sometimes, 3: often)."
+  listenning: "Level of active listening in class (1: low, 2: medium, 3: high)."
+  discussion_improves_interest: "Belief that discussion improves interest in course (1: no, 2: yes)."
+  flip_classrom: "Participation in flipped classroom activities (1: no, 2: yes)."
+  grade_previous: "Grade in previous academic period (1: fail, 2: pass, 3: good, 4: excellent)."
+  grade_expected: "Expected grade in the current course (1: fail, 2: pass, 3: good, 4: excellent)."
+  course_id: "Identifier for the course."
+  grade: "Final grade in the course (1: fail, 2: pass, 3: good, 4: excellent)."
